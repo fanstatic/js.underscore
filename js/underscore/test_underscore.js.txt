@@ -2,9 +2,9 @@ How to use?
 ===========
 
 
-You can import ``XXX`` from ``js.underscore`` and ``need`` it where you want
+You can import ``underscore`` from ``js.underscore`` and ``need`` it where you want
 these resources to be included on a page::
 
-  >>> from js.underscore import XXX # XXX fix this test
-  >>> XXX.need()
+  >>> from js.underscore import underscore
+  >>> underscore.need()
 
