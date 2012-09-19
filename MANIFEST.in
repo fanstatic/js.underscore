@@ -1,0 +1,2 @@
+include *.txt *.cfg
+recursive-include js *.txt *.js
