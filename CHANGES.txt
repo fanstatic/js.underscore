@@ -1,6 +1,12 @@
 CHANGES
 *******
 
+1.5.2
+=====
+
+- Updated underscore.js to 1.5.2
+
+
 1.4.4
 =====
 
