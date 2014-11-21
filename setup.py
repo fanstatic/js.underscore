@@ -29,7 +29,6 @@ setup(name='js.underscore',
       packages=find_packages(),namespace_packages=['js'],
       include_package_data=True,
       zip_safe=False,
-      setup_requires=['hgtools'],
       install_requires=['fanstatic',
                         'setuptools',],
       entry_points={'fanstatic.libraries': ['underscore.js = js.underscore:library',],},)
