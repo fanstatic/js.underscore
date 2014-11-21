@@ -5,7 +5,7 @@ import os
 # In bugfix releases of the python package, add a '-' suffix and an incrementing integer.
 # For example, a packaging bugfix release version 1.4.4 of the js.jquery package would be version 1.4.4-1 .
 
-version = '1.5.2'
+version = '1.7.0'
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
@@ -29,7 +29,6 @@ setup(name='js.underscore',
       packages=find_packages(),namespace_packages=['js'],
       include_package_data=True,
       zip_safe=False,
-      setup_requires=['hgtools'],
       install_requires=['fanstatic',
                         'setuptools',],
       entry_points={'fanstatic.libraries': ['underscore.js = js.underscore:library',],},)

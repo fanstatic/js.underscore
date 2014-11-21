@@ -1,4 +1,9 @@
-hgtools-1.0.1-py2.7.egg
+hgtools-*
 js.underscore.egg-info/
 dist/
 *.pyc
+.eggs/
+bin/
+parts/
+.installed.cfg
+develop-eggs/
